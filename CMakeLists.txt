@@ -28,6 +28,8 @@ file (GLOB SOURCES src/*.*)
 
 add_executable (${PROJECT_NAME} ${SOURCES})
 
+set_target_properties(${PROJECT_NAME} PROPERTIES VS_DEBUGGER_WORKING_DIRECTORY "$(OutDir)")
+
 # link glfw
 target_link_libraries (${PROJECT_NAME} ${EXTRA_LIBS})
 
