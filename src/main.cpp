@@ -1,7 +1,7 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
-#include "TextRender.h"
+#include "TextRender/TextRender.h"
 #include "BaseRender.h"
 #include <iostream>
 

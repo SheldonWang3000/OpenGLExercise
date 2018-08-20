@@ -1,7 +1,7 @@
 #ifndef TEXT_RENDER_H
 #define TEXT_RENDER_H
-#include "BaseRender.h"
-#include "Shader.h"
+#include "../BaseRender.h"
+#include "../Shader.h"
 #include <string>
 #include <vector>
 #include <unordered_map>
